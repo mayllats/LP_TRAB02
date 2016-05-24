@@ -14,7 +14,7 @@ public class trabalho02 {
 			String vet1[], vet2[];
 			double  vet4[], vet5[], matriz[][];
 			//entrada//
-			System.out.println("Quantos clientes?");
+			System.out.print("Quantos clientes?");
 			n = sc.nextInt();
 
 			vet1 = new String[n];
@@ -24,20 +24,20 @@ public class trabalho02 {
 			vet5 = new double[n];
 
 			for (i = 0; i < n; i++) {
-				System.out.println("Nome: ");
+				System.out.print("Nome: ");
 				sc.nextLine();
 				vet1[i] = sc.nextLine();
-				System.out.println("Telefone: ");
+				System.out.print("Telefone: ");
 				vet2[i] = sc.nextLine();
 				
 				
-				System.out.println("Minutos: ");
+				System.out.print("Minutos: ");
 				vet4[i] = sc.nextDouble();
 				
-				System.out.println("Tipo: ");
+				System.out.print("Tipo: ");
 				vet3[i] = sc.nextInt();
 				while (vet3[i] !=0 && vet3[i] !=1 && vet3[i] !=2){
-				    System.out.println("Digite novamente (0, 1 ou 2)!");
+				    System.out.print("Digite novamente (0, 1 ou 2)!");
 				    }
 			}
 			
@@ -87,7 +87,7 @@ public class trabalho02 {
 				
 				//soma valores//
 				double soma=0.0;
-				System.out.println("\nA soma das contas é:");
+				System.out.println("\nA soma das contas Ã©:");
 				for (i=0;i<n;i++){
 					soma = soma + vet5[i];
 				}
@@ -97,7 +97,7 @@ public class trabalho02 {
 				double mediam=0;
 				double soma2=0;
 				int cont=0;
-				System.out.println("\nMédia de minutos consumidos por clientes de conta tipo 1:");
+				System.out.println("\nMÃ©dia de minutos consumidos por clientes de conta tipo 1:");
 				for (i=0;i<n;i++){
 					if (vet3[i]==1){
 						soma2 = soma2 + vet4[i];
@@ -109,7 +109,7 @@ public class trabalho02 {
 				System.out.println(+mediam);
 				
 				//clientes sem minutos excedentes//
-				System.out.println("\nclientes que não consumiram minutos excedentes:");
+				System.out.println("\nclientes que nÃ£o consumiram minutos excedentes:");
 				for (i=0;i<n;i++){
 					if (vet4[i] <= 90) {
 						System.out.println(vet1[i]+"\t\t\t"+vet2[i]+"\n");
@@ -119,7 +119,7 @@ public class trabalho02 {
 					
 				
 				//quantidade de clientes excedentes//
-				System.out.println("\nA quantidade de clientes excedentes é:");
+				System.out.println("\nA quantidade de clientes excedentes Ã©:");
 				int contclientex=0;
 				for (i=0;i<n;i++) {
 					if (vet4[i]>90) {
@@ -129,7 +129,7 @@ public class trabalho02 {
 				System.out.println(+contclientex);
 				
 				//porcentagem de clientes tipo 2//
-				System.out.println("\nA porcentagem de clientes que possuem conta tipo 2, em relação ao total de clientes é:");
+				System.out.println("\nA porcentagem de clientes que possuem conta tipo 2, em relaÃ§Ã£o ao total de clientes Ã©:");
 				double porcent=0.0;
 				int cont2=0;
 				for (i=0;i<n;i++) {
