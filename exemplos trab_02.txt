@@ -1,0 +1,72 @@
+Quantos clientes? 7
+
+Nome: Maria
+Telefone: 12345-6789
+Minutos: 90
+Tipo: 0
+Nome: João
+Telefone: 09876-5432 
+Minutos: 100
+Tipo: 1
+Nome: José
+Telefone:52369-7412
+Minutos: 110 
+Tipo: 2
+Nome: Marcio
+Telefone: 57412-7458
+Minutos: 120 
+Tipo: 0
+Nome: Geraldo
+Telefone: 23654-7852
+Minutos: 130
+Tipo: 1 
+Nome: Lorena
+Telefone: 97415-9512
+Minutos: 140
+Tipo: 2 
+Nome: Marina
+Telefone: 23698-8521
+Minutos: 150
+Tipo: 0 
+
+
+
+
+Digite os valores da matriz:
+25.5 0.1
+35.0 0.12
+60.0 0.15
+
+
+Nome: 		Telefone: 	Tipo: 	Minutos: 	Valor da conta:
+Maria 		12345-6789	0	90		25.5
+João		09876-5432	1	100		61.5
+José		52369-7412	2	110		63.0
+Marcio		57412-7458	0	120		64.5
+Geraldo		23654-7852	1	130		66.0
+Lorena		97415-9512	2	140		67.5
+Marina		23698-8521	0	150		69.0
+
+
+
+
+
+A soma das contas é:
+417.0
+
+Média de minutos consumidos por clientes de conta tipo 1:
+115.0
+
+clientes que não consumiram minutos excedentes:
+Maria 		12345-6789
+
+
+A quantidade de clientes excedentes é:
+6
+
+
+A porcentagem de clientes que possuem conta tipo 2, em relação ao total de clientes é: 
+28.57
+
+
+_________________________________________________________________________________________
